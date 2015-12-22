@@ -1,3 +1,4 @@
+
 class Dragon
   attr_reader :name, :rider, :color
 
