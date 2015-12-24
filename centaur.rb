@@ -1,6 +1,6 @@
 class Centaur
-  attr_reader :name
-  attr_accessor :breed
+  attr_reader :name,
+              :breed
 
   def initialize(name, breed)
     @name = name
@@ -62,7 +62,7 @@ class Centaur
       gets_sick
     else
       rested
-  end
+    end
   end
 
   def rested
