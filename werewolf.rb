@@ -7,13 +7,15 @@ class Werewolf
     @location = location
     @human = true
     @hungry = false
+    @change = 0
   end
 
   def human?
-    @human
+    return @change % 2 == 0
   end
 
   def change!
+    @change += 1
     @human = false
   end
 
