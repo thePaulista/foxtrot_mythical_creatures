@@ -57,10 +57,10 @@ class Person
 
 end
 
-medusa = Medusa.new("Cassiopeia")
-victim1 = Person.new("Perseus")
-victim2 = Person.new("Jeff")
-victim3 = Person.new("Mike")
-victim4 = Person.new("Horace")
-victim5 = Person.new("Josh")
-medusa.alive?
+# medusa = Medusa.new("Cassiopeia")
+# victim1 = Person.new("Perseus")
+# victim2 = Person.new("Jeff")
+# victim3 = Person.new("Mike")
+# victim4 = Person.new("Horace")
+# victim5 = Person.new("Josh")
+# medusa.alive?

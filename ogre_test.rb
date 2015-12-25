@@ -22,6 +22,7 @@ class OgreTest < Minitest::Test
   end
 
   def test_it_can_meet_humans
+
     ogre = Ogre.new('Brak')
     human = Human.new
     assert 'Jane', human.name
@@ -83,6 +84,7 @@ class OgreTest < Minitest::Test
   end
 
   def test_human_wakes_up_when_ogre_apologizes
+
     ogre = Ogre.new('Brak')
     human = Human.new
 
